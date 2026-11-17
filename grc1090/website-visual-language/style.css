@@ -91,7 +91,7 @@ video {
 
 
 div.home-container {
-	background-color: #FFF9F5;
+	background-image: url('backgroundddd.jpg');
 	background-size: cover;
 	position: relative;
 	width: 100%;
@@ -116,8 +116,10 @@ img {
 	width: 100%;
 	/*Please leave this line.*/
 	display: block;
-	margin: 1em 1.4em;
+	margin: auto;
+	margin-top: 1em;
 	max-width: 93%;
+	border-radius: 15px;
 
 
 
@@ -136,26 +138,30 @@ header {
 }
 
 h1 {
-	width: 200px;
-	padding-left: 2em;
+	width: 190px;
+	align-items: left;
+	margin-left: 1em;
+	
 }
 
 h2,
 h3,
 h4 {
 	font-weight: bold;
+	color: rgb(101, 74, 43);
 }
 
 h2 {
 	font-size: 1.9em;
-	margin: 1em;
+	margin: .8em;
 	font-family: serif;
 	font-weight: bold;
+	
 }
 
 h3 {
 	font-size: 1.4em;
-	margin: 1.6em;
+	margin: 1.1em;
 	font-family: serif;
 	font-weight: bold;
 }
@@ -204,6 +210,8 @@ p {
 	font-family: serif;
 	font-size: .9em;
 	max-width: 95%;
+	color: rgb(101, 74, 43);
+	line-height: 1.5em;
 }
 
 ul li p.description {
@@ -217,29 +225,31 @@ ul li p.description {
 ul li p.price {
 	grid-row: 1;
 	grid-column: 2;
-	color: #000000;
+	color: rgb(101, 74, 43);
 	text-align: right;
 	margin: _;
 }
 
 nav ul li {
-	text-transform: uppercase;
+	
 	font-weight: bold;
-	font-family: sans-serif;
+	font-family: serif;
 	margin-bottom: 1.2em;
 	font-size: 1.5rem;
 }
 
 nav ul li a {
 	color: #FFF9F5;
-	background-color: #808080;
+	background-color:rgb(129, 101, 68);
 	padding: .3em;
+	border-radius: 8px;
 	
 }
 
 nav ul li.selected a {
-	color: #808080;
+	color:rgb(129, 101, 68);
 	background-color: #FFF9F5;
+	font-style: italic;
 
 }
 
@@ -249,7 +259,7 @@ p.slogan {
 	font-style: italic;
 	margin: 1em .5em;
 	margin-bottom: 2.5em;
-	color: black;
+	color: rgb(101, 74, 43);
 }
 
 footer {
@@ -264,16 +274,16 @@ footer {
 }
 
 address {
-	color: #000000;
+	color: rgb(101, 74, 43);
 	font-family: serif;
-	margin: .5em;
-	line-height: .1;
+	margin-left: .4em;
+	
 }
 
 ul.hours {
-	color: #000000;
+	color: rgb(101, 74, 43);
 	line-height: 1.4em;
-	margin-left: 1.8em;
+	margin-left: 1.44em;
 
 }
 
@@ -323,7 +333,7 @@ footer p {
 	}
 
 	html {
-		background-color: #808080;
+		background-color: #ECDABF;
 	}
 
 	body {
